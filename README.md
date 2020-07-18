@@ -1,22 +1,8 @@
 # Income-Distribution-ML
 
-This program implements several machine learning and deep learning algorithms for prediction income distribution in California based on satellite imagery.
-
-## Installation
-
-The project requires the following frameworks:
-
-- PyTorch: https://pytorch.org
-
-- Scikit-learn: https://scikit-learn.org/stable/
-
-- NumPy: https://numpy.org
-
-- Pandas: https://pandas.pydata.org
+This program implements several machine learning models for mapping income distribution using satellite imagery.
 
 ## Usage
-
-To run the program, use the following command:
 
 ```bash
 python main.py
@@ -30,7 +16,3 @@ There are several optional command line arguments:
 - --batch-size: Size of a training batch for CNN.
 - --lr: Learning rate for CNN.
 - --epochs: Number of training epochs for CNN.
-
-## Authors
-
-* **Tai Vu** - Stanford University
